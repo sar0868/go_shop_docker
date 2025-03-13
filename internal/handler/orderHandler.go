@@ -5,10 +5,10 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/sar0868/otus_go_basic_hw/hw16_docker/internal/app"
-	"github.com/sar0868/otus_go_basic_hw/hw16_docker/internal/repository"
-	"github.com/sar0868/otus_go_basic_hw/hw16_docker/internal/service"
-	"github.com/sar0868/otus_go_basic_hw/hw16_docker/internal/trx"
+	"go_shop_docker/internal/app"
+	"go_shop_docker/internal/repository"
+	"go_shop_docker/internal/service"
+	"go_shop_docker/internal/trx"
 )
 
 type Product struct {

@@ -1,4 +1,4 @@
-module github.com/sar0868/otus_go_basic_hw/hw16_docker
+module go_shop_docker
 
 go 1.23
 

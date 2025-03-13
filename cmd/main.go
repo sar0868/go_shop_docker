@@ -5,11 +5,11 @@ import (
 	"log"
 
 	"github.com/gin-gonic/gin"
-	_ "github.com/sar0868/otus_go_basic_hw/hw16_docker/docs"
-	"github.com/sar0868/otus_go_basic_hw/hw16_docker/internal/app"
-	"github.com/sar0868/otus_go_basic_hw/hw16_docker/internal/handler"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
+	_ "go_shop_docker/docs"
+	"go_shop_docker/internal/app"
+	"go_shop_docker/internal/handler"
 )
 
 // @title HW15: shop

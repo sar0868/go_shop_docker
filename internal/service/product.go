@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/sar0868/otus_go_basic_hw/hw16_docker/internal/repository"
+	"go_shop_docker/internal/repository"
 )
 
 func Products(ctx context.Context, repo repository.Querier) ([]*repository.ShopProduct, error) {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/sar0868/otus_go_basic_hw/hw16_docker/internal/repository"
+	"go_shop_docker/internal/repository"
 )
 
 type ParamUser struct {
